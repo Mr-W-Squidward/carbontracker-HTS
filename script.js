@@ -5,11 +5,11 @@ const updateData = async () => {
     const data = await response.json();
 
     document.getElementById("timeSpent").textContent = data.timeSpent;
-    document.getElementById("gasBurned").textContent = data.gasBurned;
+    document.getElementById("distanceTravelled").textContent = data.distanceTravelled;
     document.getElementById("co2Emitted").textContent = data.co2Emitted;
   } catch (error) {
     console.error("Error fetching data:", error);
   }
 };
 
-setInterval(updateData, 1000);
+setInterval(updateData, 100);
