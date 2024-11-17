@@ -1,0 +1,57 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-image: url('images/background.png');
+  background-size: cover;
+  background-position: center;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.0em;
+  color: #2d572c;
+  margin-bottom: 20px;
+}
+
+.card {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  font-size: 1.2em;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.card p span {
+  font-weight: bold;
+  color: #2d572c;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.card p span:hover {
+  color: #1e4021;
+  transform: scale(1.1);
+}
